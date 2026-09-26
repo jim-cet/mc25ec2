@@ -124,7 +124,7 @@
   description: "The Contactless Digital Tachometer is an 8051 based system that measures a motor's rotational speed using an IR sensor to detect revolutions without physical friction. It utilizes Pulse Width Modulation for adjustable speed control and displays the real-time RPM on a LCD screen."
   video: "videos/batch21_project.mp4"
  
- - name: "Electronic Voting Machine"
+- name: "Electronic Voting Machine"
   batch: "Rugma L Satheesh, Sneha K V"
   description: "This project implements an Electronic Voting Machine using the to securely record votes through push buttons and display status and results on a 16×2 LCD. It includes features like vote locking, start/stop control, and result calculation with winner or tie indication, ensuring a simple and reliable voting process."
   video: "videos/batch26_project.mp4"
@@ -144,7 +144,7 @@
   description: "Current overload detection in load using current sensor. For demonstration of working we used a dc motor as load where current sensor reads the load current and when the value exceeds the limit, the indicator turns on."
   video: "videos/batch5_project.mp4"
   
- - name: "PASSWORD BASED CIRCUIT BREAKER"
+- name: "PASSWORD BASED CIRCUIT BREAKER"
   batch: "KR ASLAM RASHEED, AMAN ABDURAHMAN"
   description: "Our project will helps to digitalise the menu system in household electric meter box with a password security and menu system"
   video: "videos/batch8_project.mp4"
