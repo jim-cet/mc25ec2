@@ -1,3 +1,13 @@
+- name: "Smart Energy meter with Serial Communication"
+  batch: "Aghil Krishna KP, Tessin V George"
+  description: "A 8051 based energy meter which counts input energy pulses, displays it on a LCD screen and serialy communicate the current readings. It is also built with a password reset for billing."
+  video: "videos/batch35_project.mp4"
+
+- name: "8051 based 4DoF robotic arm"
+  batch: "Akul S Mohan(13), Samil R(58)"
+  description: "8051 based 4DoF robotic arm which uses interrupt driven algorithm to generate 4 pwm signals and uses servo motors to control each joint."
+  video: "videos/batch29_project.mp4"
+
 - name: "Ultrasonic Distance Measurement System"
   batch: "Dhanush Krishna R N, Pranav S"
   description: "This project is a distance measurement system built using an 8051 microcontroller and an HC-SR04 ultrasonic sensor. It calculates the distance to an object in real-time, displays it on a 16x2 LCD, and sounds a buzzer alarm if the object gets closer than 15 cm"
@@ -7,22 +17,16 @@
   batch: "Abhiroop V, Sreehari M S"
   description: "Design and implementation of a vehicle speed detection system using the 8051 microcontroller and IR sensors, featuring integrated overspeed detection, real-time speed display, and visual alert mechanisms."
   video: "videos/batch10_project.mp4"
-
+  
 - name: "DHT 11 Powered Humidity Sensor"
   batch: "Abhin Raj M, Adithya Narayanan, Asish T P"
   description: "Humidity sensor powered by DHT11 sensor, which shows output in a 16x2 LCD screen. Shows current hunidity, minimum record and maximum record values along with average humidity across 4 samples."
   video: "videos/batch11_project.mp4"
 
-
 - name: "HEART RATE MONITOR SYSTEM"
   batch: "HASIL ALI P T, MARK JOHNY"
   description: "This project is a digital heart rate monitor that uses an optical SR011 sensor to detect your pulse as an analog signal. An ADC0804 chip translates this continuous wave into digital data so the 8051 microcontroller can understand and process it. Finally, the microcontroller calculates your Beats Per Minute (BPM) and displays the real-time result on a 16x2 LCD screen."
   video: "videos/batch15_project.mp4"
-
-- name: "PASSWORD BASED DOOR LOCK WITH SECURITY ALERT"
-  batch: "ROHANN SUBHASH, RIYA ANNA THOMAS"
-  description: "door lock sytem based of 4x4 matrix keypad which has an lcd segment for user interface. additionally, a buzzer for system locked conditon and automatic door closing after 5s if door is opened."
-  video: "videos/batch16_project.mp4"
 
 - name: "PASSWORD BASED DOOR LOCK WITH SECURITY ALERT"
   batch: "ROHANN SUBHASH, RIYA ANNA THOMAS"
@@ -39,11 +43,6 @@
   description: "This project implements an RFID-based attendance system using an 8051/8052 microcontroller, where each student is identified by a unique RFID UID and their attendance is displayed on an LCD. The system ensures accurate tracking by marking each student as present only once and preventing duplicate entries."
   video: "videos/batch27_project.mp4"
 
-- name: "8051 based 4DoF robotic arm"
-  batch: "Akul S Mohan(13), Samil R(58)"
-  description: "8051 based 4DoF robotic arm which uses interrupt driven algorithm to generate 4 pwm signals and uses servo motors to control each joint."
-  video: "videos/batch29_project.mp4"
-
 - name: "Motion detected environment monitor"
   batch: "Ann Augustian (17), Arya Devaki (20)"
   description: 'An energy efficient display unit that displays the current time, date, day only when motion is detected. Can me installed in a mirror to make it "smart".'
@@ -58,16 +57,6 @@
   batch: "Sreeraj Rajeevan, Arundhati V"
   description: "This project is an hardware 8051 based implementation of a board game battleship using an LCD display, matrix keypad and 8x8 led matrix display. For this project we used bit communication similar to that of SPI (bit banging) and state preservation and management system for checking the state of ships whether they are placed/hit"
   video: "videos/batch34_project.mp4"
-
-- name: "Smart Energy meter with Serial Communication"
-  batch: "Aghil Krishna KP, Tessin V George"
-  description: "A 8051 based energy meter which counts input energy pulses, displays it on a LCD screen and serialy communicate the current readings. It is also built with a password reset for billing."
-  video: "videos/batch35_project.mp4"
-
-- name: "Smart blind stick"
-  batch: "Akshay V nair, Nasir Ali"
-  description: "Our project is a smart blindstick that is made with at89s52 microcontroller and an ultrasonic sensor.it detects the distance between the sensor and an object and display it on the lcd, while the buzzer will activate after a particular range"
-  video: "videos/batch3_project.mp4"
 
 - name: "Security System using 8051 with Siren alert and LCD display monitoring."
   batch: "Abhilash A, Febin Eldhose"
@@ -104,6 +93,11 @@
   description: "An implementation of home automation system using the HC-05 blue-tooth module integrated with Serial Bluetooth Terminal App with a 5v fan and LED as the devices under control"
   video: "videos/batch7_project.mp4"
 
+- name: "Smart blind stick"
+  batch: "Akshay V nair, Nasir Ali"
+  description: "Our project is a smart blindstick that is made with at89s52 microcontroller and an ultrasonic sensor.it detects the distance between the sensor and an object and display it on the lcd, while the buzzer will activate after a particular range"
+  video: "videos/batch3_project.mp4"
+
 - name: "Smart Irrigation System"
   batch: "Ann Joy, Joseph Jophy"
   description: "This project is a soil moisture monitoring system using an 8051 microcontroller that detects the moisture level in soil through a sensor and comparator circuit. Based on the detected level, it displays the soil condition on an LCD and indicates whether watering is required using an LED."
@@ -139,16 +133,6 @@
   description: "Our project is a landslide detection system using the AT89S52 that monitors soil moisture levels to identify potential landslide conditions. When the moisture exceeds a set threshold, the system alerts users through a buzzer and displays warning messages on a 16x2 LCD Display."
   video: "videos/batch2_project.mp4"
   
-- name: "Current overload detection"
-  batch: "Vysakh P Chandran, Ujjwal Skandakumar P"
-  description: "Current overload detection in load using current sensor. For demonstration of working we used a dc motor as load where current sensor reads the load current and when the value exceeds the limit, the indicator turns on."
-  video: "videos/batch5_project.mp4"
-  
-- name: "PASSWORD BASED CIRCUIT BREAKER"
-  batch: "KR ASLAM RASHEED, AMAN ABDURAHMAN"
-  description: "Our project will helps to digitalise the menu system in household electric meter box with a password security and menu system"
-  video: "videos/batch8_project.mp4"
-
 - name: "Fire Alarm"
   batch: "Devitheertha T P, Lakshmi Manoj"
   description: "Our project is an automated fire detection system that uses an 8051 microcontroller to monitor an IR-based flame sensor for the presence of fire. When a flame is detected, the controller triggers a BC547 transistor to drive a piezo buzzer, providing an immediate audible alert for emergency safety."
@@ -168,3 +152,13 @@
   batch: "Anand Maheshwar MS, Muhammed Yamin Beck"
   description: "This is a Budget friendly alternative to the conventional, flamboyant ones available on the market that is available at thrice the cost of production of our project. With the easy sacrifice of SO2 levels and Humidity Measurement, our project measures the PM2.5 level with a precision of ±10ug/m³."
   video: "videos/batch30_project.mp4"
+- name: "Current overload detection"
+  batch: "Vysakh P Chandran, Ujjwal Skandakumar P"
+  description: "Current overload detection in load using current sensor. For demonstration of working we used a dc motor as load where current sensor reads the load current and when the value exceeds the limit, the indicator turns on."
+  video: "videos/batch5_project.mp4"
+  
+- name: "PASSWORD BASED CIRCUIT BREAKER"
+  batch: "KR ASLAM RASHEED, AMAN ABDURAHMAN"
+  description: "Our project will helps to digitalise the menu system in household electric meter box with a password security and menu system"
+  video: "videos/batch8_project.mp4"
+
