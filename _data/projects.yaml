@@ -3,16 +3,6 @@
   description: "This project is a distance measurement system built using an 8051 microcontroller and an HC-SR04 ultrasonic sensor. It calculates the distance to an object in real-time, displays it on a 16x2 LCD, and sounds a buzzer alarm if the object gets closer than 15 cm"
   video: "videos/batch1_project.mp4"
 
-- name: "Home Automation System using 8051 microcontroller using blue-tooth module"
-  batch: "Mohamed Hanoof, Nawrah Baramy"
-  description: "An implementation of home automation system using the HC-05 blue-tooth module integrated with Serial Bluetooth Terminal App with a 5v fan and LED as the devices under control"
-  video: "videos/batch7_project.mp4"
-
-- name: "Smart Irrigation System"
-  batch: "Ann Joy, Joseph Jophy"
-  description: "This project is a soil moisture monitoring system using an 8051 microcontroller that detects the moisture level in soil through a sensor and comparator circuit. Based on the detected level, it displays the soil condition on an LCD and indicates whether watering is required using an LED."
-  video: "videos/batch9_project.mp4"
-
 - name: "SPEED DETECTOR USING 8051"
   batch: "Abhiroop V, Sreehari M S"
   description: "Design and implementation of a vehicle speed detection system using the 8051 microcontroller and IR sensors, featuring integrated overspeed detection, real-time speed display, and visual alert mechanisms."
@@ -23,10 +13,6 @@
   description: "Humidity sensor powered by DHT11 sensor, which shows output in a 16x2 LCD screen. Shows current hunidity, minimum record and maximum record values along with average humidity across 4 samples."
   video: "videos/batch11_project.mp4"
 
-- name: "8051 Microcontroller Based ADC Interfacing to Measure Analog Voltage Using Potentiometer and LCD Display"
-  batch: "Jaiden J L Gil, Dhananjayan M"
-  description: "Project aims to interface an ADC0804 converter to read analog signals from a 10k potentiometer and to realize a real-time digital voltmeter system on a common board. It displays calculated voltage and raw 8-bit digital data on a 16x2 LCD."
-  video: "videos/batch14_project.mp4"
 
 - name: "HEART RATE MONITOR SYSTEM"
   batch: "HASIL ALI P T, MARK JOHNY"
@@ -43,25 +29,10 @@
   description: "Door lock system based on 4x4 matrix keypad with lcd display for uder feedback, buzzer for system locked condition and automatic door closing after 5s."
   video: "videos/batch17_project.mp4"
 
-- name: "4 way traffic light controller using 8051"
-  batch: "JIBIN P, Sivamohan"
-  description: "This project uses an 8051 microcontroller to control traffic lights at a four-way intersection by automatically switching between red, yellow, and green signals in a fixed sequence. It ensures smooth and organized traffic flow by giving each direction a timed turn while the others remain stopped."
-  video: "videos/batch19_project.mp4"
-
-- name: "Contactless Digital Tachometer"
-  batch: "Muhammad Shamnad N, Devananda R"
-  description: "The Contactless Digital Tachometer is an 8051 based system that measures a motor's rotational speed using an IR sensor to detect revolutions without physical friction. It utilizes Pulse Width Modulation for adjustable speed control and displays the real-time RPM on a LCD screen."
-  video: "videos/batch21_project.mp4"
-
 - name: "Temperature based industrial sensor acquisition and motor control unit"
   batch: "Thejas J Anil, Muhammad Risfal K P"
   description: "When the sensor detects that the temperature has exceeded a specific limit, the microcontroller sends a signal to trigger the cooling fan. Once the temperature drops back to a safe range, the system automatically deactivates the actuator to conserve power."
   video: "videos/batch23_project.mp4"
-
-- name: "Electronic Voting Machine"
-  batch: "Rugma L Satheesh, Sneha K V"
-  description: "This project implements an Electronic Voting Machine using the to securely record votes through push buttons and display status and results on a 16×2 LCD. It includes features like vote locking, start/stop control, and result calculation with winner or tie indication, ensuring a simple and reliable voting process."
-  video: "videos/batch26_project.mp4"
 
 - name: "Attendance System Using RFID"
   batch: "Akshay M Rahul, Abhinav A R"
@@ -78,11 +49,6 @@
   description: 'An energy efficient display unit that displays the current time, date, day only when motion is detected. Can me installed in a mirror to make it "smart".'
   video: "videos/batch31_project.mp4"
 
-- name: "Gas leakage detection using 8051"
-  batch: "Devaprabha Manoj, Hashid Aman"
-  description: "Gas Leakage Detection System using 8051 detects the presence of gas using a gas sensor. When leakage is detected, the 8051 microcontroller activates an LED alert with a delay to warn the user. This system helps prevent accidents by providing early detection of gas leaks."
-  video: "videos/batch32_project.mp4"
-
 - name: "AUTOMATIC WIPER SYSTEM USING 8051"
   batch: "HARINANDANAN S, GOWRISANKARI V S"
   description: "When there is no rain, the sensor remains dry and the wiper stays OFF. As soon as water droplets fall on the sensor, its conductivity changes, and this change is detected by the microcontroller. The controller then sends a signal to the motor driver, which activates the motor. The motor rotates in toggle motion similar to that of the wiper."
@@ -98,40 +64,15 @@
   description: "A 8051 based energy meter which counts input energy pulses, displays it on a LCD screen and serialy communicate the current readings. It is also built with a password reset for billing."
   video: "videos/batch35_project.mp4"
 
-- name: "8051 based soil moisture monitoring and landslide early warning system"
-  batch: "Abhimanyu P Nair, Sam B Cletus"
-  description: "Our project is a landslide detection system using the AT89S52 that monitors soil moisture levels to identify potential landslide conditions. When the moisture exceeds a set threshold, the system alerts users through a buzzer and displays warning messages on a 16x2 LCD Display."
-  video: "videos/batch2_project.mp4"
-
 - name: "Smart blind stick"
   batch: "Akshay V nair, Nasir Ali"
   description: "Our project is a smart blindstick that is made with at89s52 microcontroller and an ultrasonic sensor.it detects the distance between the sensor and an object and display it on the lcd, while the buzzer will activate after a particular range"
   video: "videos/batch3_project.mp4"
 
-- name: "Batch26_currentoverloaddetection"
-  batch: "Vysakh P Chandran, Ujjwal Skandakumar P"
-  description: "Current overload detection in load using current sensor. For demonstration of working we used a dc motor as load where current sensor reads the load current and when the value exceeds the limit, the indicator turns on."
-  video: "videos/batch5_project.mp4"
-
 - name: "Security System using 8051 with Siren alert and LCD display monitoring."
   batch: "Abhilash A, Febin Eldhose"
   description: "This project uses an 8051 microcontroller to detect motion through a PIR sensor and display the status of motion on an LCD in real time. When motion is detected, a buzzer is activated and a message is shown, while no motion keeps the system silent with an updated display."
   video: "videos/batch6_project.mp4"
-
-- name: "PASSWORD BASED CIRCUIT BREAKER"
-  batch: "KR ASLAM RASHEED, AMAN ABDURAHMAN"
-  description: "Our project will helps to digitalise the menu system in household electric meter box with a password security and menu system"
-  video: "videos/batch8_project.mp4"
-
-- name: "Fire Alarm"
-  batch: "Devitheertha T P, Lakshmi Manoj"
-  description: "Our project is an automated fire detection system that uses an 8051 microcontroller to monitor an IR-based flame sensor for the presence of fire. When a flame is detected, the controller triggers a BC547 transistor to drive a piezo buzzer, providing an immediate audible alert for emergency safety."
-  video: "videos/batch12_project.mp4"
-
-- name: "Frequency counter"
-  batch: "Mathew SN (72), Rahul.V (73)"
-  description: "This project focuses on the design and implementation of a frequency counter using the 8051-microcontroller architecture. The core of the project is 8051’s internal Timer/Counter modules to measure the frequency of an external periodic signal and interfacing the microcontroller with an external display to monitor real time signal data"
-  video: "videos/batch13_project.mp4"
 
 - name: "BIDIRECTIONAL VISITOR COUNTER WITH ENERGY MANAGEMENT SYSTEM"
   batch: "Malavika K, Aelina Anish"
@@ -153,16 +94,76 @@
   description: "To achieve the maximum efficiency of the solar panel 3 LDR are fixed to the left, right and centre of sonal panel. The panel rotates to the side where maximum intensity of light is received."
   video: "videos/batch24_project.mp4"
 
-- name: "Contactless 360° rotating object detection and counting"
-  batch: "Aneena Jipson, Sravan P"
-  description: "Using 360° rotating stepper motor, detect the object around it and shows total count in 7 segment led display"
-  video: "videos/batch25_project.mp4"
-
 - name: "Prepaid energy meter"
   batch: "Sandeep Santhosh k, Priyamvada p achuthan"
   description: "The objective of this project is to simulate a prepaid electricity meter, where each detected pulse reduces the balance, and once the balance reaches zero, the system automatically cuts off."
   video: "videos/batch28_project.mp4"
 
+- name: "Home Automation System using 8051 microcontroller using blue-tooth module"
+  batch: "Mohamed Hanoof, Nawrah Baramy"
+  description: "An implementation of home automation system using the HC-05 blue-tooth module integrated with Serial Bluetooth Terminal App with a 5v fan and LED as the devices under control"
+  video: "videos/batch7_project.mp4"
+
+- name: "Smart Irrigation System"
+  batch: "Ann Joy, Joseph Jophy"
+  description: "This project is a soil moisture monitoring system using an 8051 microcontroller that detects the moisture level in soil through a sensor and comparator circuit. Based on the detected level, it displays the soil condition on an LCD and indicates whether watering is required using an LED."
+  video: "videos/batch9_project.mp4"
+
+- name: "8051 Microcontroller Based ADC Interfacing to Measure Analog Voltage Using Potentiometer and LCD Display"
+  batch: "Jaiden J L Gil, Dhananjayan M"
+  description: "Project aims to interface an ADC0804 converter to read analog signals from a 10k potentiometer and to realize a real-time digital voltmeter system on a common board. It displays calculated voltage and raw 8-bit digital data on a 16x2 LCD."
+  video: "videos/batch14_project.mp4"
+
+- name: "4 way traffic light controller using 8051"
+  batch: "JIBIN P, Sivamohan"
+  description: "This project uses an 8051 microcontroller to control traffic lights at a four-way intersection by automatically switching between red, yellow, and green signals in a fixed sequence. It ensures smooth and organized traffic flow by giving each direction a timed turn while the others remain stopped."
+  video: "videos/batch19_project.mp4"
+
+- name: "Contactless Digital Tachometer"
+  batch: "Muhammad Shamnad N, Devananda R"
+  description: "The Contactless Digital Tachometer is an 8051 based system that measures a motor's rotational speed using an IR sensor to detect revolutions without physical friction. It utilizes Pulse Width Modulation for adjustable speed control and displays the real-time RPM on a LCD screen."
+  video: "videos/batch21_project.mp4"
+ 
+ - name: "Electronic Voting Machine"
+  batch: "Rugma L Satheesh, Sneha K V"
+  description: "This project implements an Electronic Voting Machine using the to securely record votes through push buttons and display status and results on a 16×2 LCD. It includes features like vote locking, start/stop control, and result calculation with winner or tie indication, ensuring a simple and reliable voting process."
+  video: "videos/batch26_project.mp4"
+
+- name: "Gas leakage detection using 8051"
+  batch: "Devaprabha Manoj, Hashid Aman"
+  description: "Gas Leakage Detection System using 8051 detects the presence of gas using a gas sensor. When leakage is detected, the 8051 microcontroller activates an LED alert with a delay to warn the user. This system helps prevent accidents by providing early detection of gas leaks."
+  video: "videos/batch32_project.mp4"
+  
+- name: "8051 based soil moisture monitoring and landslide early warning system"
+  batch: "Abhimanyu P Nair, Sam B Cletus"
+  description: "Our project is a landslide detection system using the AT89S52 that monitors soil moisture levels to identify potential landslide conditions. When the moisture exceeds a set threshold, the system alerts users through a buzzer and displays warning messages on a 16x2 LCD Display."
+  video: "videos/batch2_project.mp4"
+  
+- name: "Current overload detection"
+  batch: "Vysakh P Chandran, Ujjwal Skandakumar P"
+  description: "Current overload detection in load using current sensor. For demonstration of working we used a dc motor as load where current sensor reads the load current and when the value exceeds the limit, the indicator turns on."
+  video: "videos/batch5_project.mp4"
+  
+ - name: "PASSWORD BASED CIRCUIT BREAKER"
+  batch: "KR ASLAM RASHEED, AMAN ABDURAHMAN"
+  description: "Our project will helps to digitalise the menu system in household electric meter box with a password security and menu system"
+  video: "videos/batch8_project.mp4"
+
+- name: "Fire Alarm"
+  batch: "Devitheertha T P, Lakshmi Manoj"
+  description: "Our project is an automated fire detection system that uses an 8051 microcontroller to monitor an IR-based flame sensor for the presence of fire. When a flame is detected, the controller triggers a BC547 transistor to drive a piezo buzzer, providing an immediate audible alert for emergency safety."
+  video: "videos/batch12_project.mp4"
+
+- name: "Frequency counter"
+  batch: "Mathew SN (72), Rahul.V (73)"
+  description: "This project focuses on the design and implementation of a frequency counter using the 8051-microcontroller architecture. The core of the project is 8051’s internal Timer/Counter modules to measure the frequency of an external periodic signal and interfacing the microcontroller with an external display to monitor real time signal data"
+  video: "videos/batch13_project.mp4"
+  
+- name: "Contactless 360° rotating object detection and counting"
+  batch: "Aneena Jipson, Sravan P"
+  description: "Using 360° rotating stepper motor, detect the object around it and shows total count in 7 segment led display"
+  video: "videos/batch25_project.mp4"
+  
 - name: "Low Budget Air Quality Index Measurement Device Using 8051"
   batch: "Anand Maheshwar MS, Muhammed Yamin Beck"
   description: "This is a Budget friendly alternative to the conventional, flamboyant ones available on the market that is available at thrice the cost of production of our project. With the easy sacrifice of SO2 levels and Humidity Measurement, our project measures the PM2.5 level with a precision of ±10ug/m³."
